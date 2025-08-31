@@ -1,9 +1,12 @@
 ### TIPC - Tor IP Changer
+---
+https://github.com/user-attachments/assets/1dfa30e0-cc8e-4264-a214-d12910c7b2f5
+
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg)](https://linux.org)
 [![Tor](https://img.shields.io/badge/Powered%20by-Tor-purple.svg)](https://torproject.org)
----
+
 **Simple Python tool to change your IP through the Tor network**
 
 ### Features
@@ -69,7 +72,7 @@
 
 ### Usage
 
-**Run the tool**:
+**Run TIPC**:
 - **Linux**:
   - If you have installed **TIPC** via the installer you can simply run it by `sudo tipc`
   - Otherwise, you can run it directly from the repository:
