@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/1dfa30e0-cc8e-4264-a214-d12910c7b2f5
 > [!WARNING]
 > Currently only Linux is supported. Windows and macOS support are in development.
 
-### Linux
+#### Linux
 **1**. Install Requirements:
   - **Python**:
     - Ubuntu
@@ -64,15 +64,15 @@ https://github.com/user-attachments/assets/1dfa30e0-cc8e-4264-a214-d12910c7b2f5
   sudo python3 TIPC-Installer.py
   ```
 
-### Windows:
+#### Windows:
 - **Coming soon.**
 
-### macOS:
+#### macOS:
 - **Coming soon.**
 
 ### Usage
 
-**Run TIPC**:
+#### Run TIPC:
 - **Linux**:
   - If you have installed **TIPC** via the installer you can simply run it by `sudo tipc`
   - Otherwise, you can run it directly from the repository:
