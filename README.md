@@ -8,21 +8,6 @@
 - Nice interface
 - Easy to use
 
-**Perfect** for:
-  - Testing suspicious/malicious websites
-  - Changing IP from apps and websites
-  - Changing IP in games like Minecraft and more
-
-
-
-### Requirements
-- **Python 3.8+**
-  - Libraries:
-    - requests
-    - rich
-- **Tor installed**
-- **Fast internet connection** (Optional but recommended for stable connection)
-
 ### Installation
 > [!WARNING]
 > Currently only Linux is supported. Windows and macOS support is in development.
@@ -47,17 +32,17 @@
     - Requests → `pip install requests`
   - **Tor**:
     - Ubuntu:
-    ```bash
-    sudo apt install tor
-    ```
+      ```bash
+      sudo apt install tor
+      ```
     - ArchLinux:
-    ```bash
-    sudo pacman -S tor
-    ```
+      ```bash
+      sudo pacman -S tor
+      ```
   - **Start Tor service**:
-  ```bash
-  systemctl enable tor && systemctl start tor
-  ```
+      ```bash
+      systemctl enable tor && systemctl start tor
+      ```
 
 **2**. Clone the repository:
   ```bash
