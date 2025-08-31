@@ -1,4 +1,8 @@
 ### TIPC - Tor IP Changer
+[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg)](https://linux.org)
+[![Tor](https://img.shields.io/badge/Powered%20by-Tor-purple.svg)](https://torproject.org)
 ---
 **Simple Python tool to change your IP through the Tor network**
 
