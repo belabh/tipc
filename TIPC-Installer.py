@@ -26,10 +26,10 @@ def error_exit(msg: str):
 def check_root():
     if sys.platform.startswith(("linux", "darwin")):
         if os.geteuid() != 0:
-            error_exit("Run with sudo on Linux/macOS!")
+            error_exit("The installer requires Root permission to install! Please try again with 'sudo'")
     elif sys.platform.startswith("win"):
         if not ctypes.windll.shell32.IsUserAnAdmin():
-            error_exit("Run as Administrator on Windows!")
+            error_exit("The installer requires Administrator permission! Please open new CMD window as Administrator and try again")
 
 def show_banner():
     banner = Text("      TIPC • Installer", style="bold cyan")
@@ -84,7 +84,7 @@ def uninstall():
     target_file, wrapper_file = get_paths()
     for path in (target_file, wrapper_file):
         if os.path.exists(path): os.remove(path)
-    console.print(Panel(Align.center("[yellow]TIPC removed successfully![/yellow]"), border_style="yellow"))
+    console.print(Panel(Align.center("[yellow] - TIPC removed successfully![/yellow] - "), border_style="yellow"))
 
 def main():
     signal.signal(signal.SIGINT, lambda *_: console.print("\n[yellow]Exiting...[/yellow]") or sys.exit(0))
