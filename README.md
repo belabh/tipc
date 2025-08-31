@@ -56,9 +56,9 @@
   ```bash
   cd tipc
   ```
-**4**. Install the tool globally:
+**4**. Run the installer:
   ```bash
-  sudo python3 global_install.py
+  sudo python3 TIPC-Installer.py
   ```
 
 ### Windows:
@@ -69,6 +69,13 @@
 
 ### Usage
 
+**Run the tool**:
+- **Linux**:
+  - If you have installed **TIPC** via the installer you can simply run it by `sudo tipc`
+  - Otherwise, you can run it directly from the repository:
+      ```bash
+      sudo python3 TIPC-Linux.py
+      ```
 **TIPC** supports 2 different modes:
 - **Manual**: Press ENTER to change your IP whenever you want.
 - **Auto**: Select the number of times (0 for unlimited) and delay, and it will automatically change your IP without any interaction (just keep it running).
@@ -122,7 +129,7 @@ It will route traffic through Tor and change your IP accordingly.
 
 #### Test your new IP
 
-TIPC will show your new IP in the terminal.  
+**TIPC** will show your new IP in the terminal.  
 You can also verify it in a browser with these websites:
 
 - [https://www.whatismyip.com](https://www.whatismyip.com)
@@ -134,6 +141,6 @@ You can also verify it in a browser with these websites:
 > - **TIPC is not a VPN alternative.** It only changes your IP through Tor and does not fully replace a VPN.  
 
 ### Disclaimer
-TIPC is intended for **educational and testing purposes only**.  
+**TIPC** is intended for **educational and testing purposes only**.  
 The author is **not responsible for any misuse or illegal activity** conducted using this tool.  
 Always comply with local laws and the terms of service of websites or applications.
