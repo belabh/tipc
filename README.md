@@ -1,31 +1,31 @@
 ### TIPC - Tor IP Changer
 ---
-**Simple python tool to change your IP through Tor**
+**Simple Python tool to change your IP through the Tor network**
 
 ### Features
 - Free and open source
-- Change your IP unlimited time through Tor network
-- Nice interface
+- Change your IP unlimited times through the Tor network
+- Clean interface
 - Easy to use
 
 ### Installation
 > [!WARNING]
-> Currently only Linux is supported. Windows and macOS support is in development.
+> Currently only Linux is supported. Windows and macOS support are in development.
 
 ### Linux
 **1**. Install Requirements:
   - **Python**:
     - Ubuntu
       ```bash
-      sudo apt install python
+      sudo apt install python3
       ```
-    - Archlinux
+    - Arch Linux
       ```bash
       sudo pacman -S python
       ```
     - Fedora
       ```bash
-      sudo dnf install python
+      sudo dnf install python3
       ```
   - **Libraries**:
     - Rich → `pip install rich`
@@ -35,7 +35,7 @@
       ```bash
       sudo apt install tor
       ```
-    - ArchLinux:
+    - Arch Linux:
       ```bash
       sudo pacman -S tor
       ```
@@ -60,15 +60,14 @@
 ### Windows:
 - **Coming soon.**
 
-### MacOS:
+### macOS:
 - **Coming soon.**
 
 ### Usage
 
 **TIPC** supports 2 different modes:
 - **Manual**: Press ENTER to change your IP whenever you want.
-- **Auto**: Select times (0 for unlimited) and delay and it will automatically change your IP without any interactions (just keep it running).
-
+- **Auto**: Select the number of times (0 for unlimited) and delay, and it will automatically change your IP without any interaction (just keep it running).
 
 To start using your new IP, point your applications to Tor's `SOCKS5` proxy (`127.0.0.1:9050`).
 
@@ -120,7 +119,7 @@ It will route traffic through Tor and change your IP accordingly.
 #### Test your new IP
 
 TIPC will show your new IP in the terminal.  
-You can also verify in a browser with these websites:
+You can also verify it in a browser with these websites:
 
 - [https://www.whatismyip.com](https://www.whatismyip.com)
 - [https://ipleak.net](https://ipleak.net)
